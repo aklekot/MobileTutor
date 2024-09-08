@@ -1,0 +1,107 @@
+.banner {
+    background-color: #336699;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 40px;
+}
+
+* {
+    font-size: 14px;
+}
+
+#image {
+    width: 450px;
+    /*border: #333399 2px solid;*/
+}
+.menu {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+}
+
+.menu-item {
+    margin-right: 20px;
+}
+
+.hamburger-menu {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .menu-item {
+        display: none;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+    .half-width {
+        width: 50%;
+        float: left;
+        box-sizing: border-box;
+    }
+}
+
+
+th,td {
+    text-align: center;
+}
+
+.list-group-item {
+    font-size: 12px;
+    
+
+}
+
+.hamburger-icon {
+    cursor: pointer;
+}
+
+@media (max-width: 991.98px) {
+    .navbar-toggler {
+        order: -1; /* Move the toggle button to the left */
+    }
+
+    .navbar-collapse {
+        text-align: left; /* Align the collapsed menu to the left */
+    }
+}
+
+.main-content {
+    padding-left: 2%;
+   
+}
+h5 {
+    font-weight: bold;
+    color: #993366;
+}
+h6 {
+    font-style:italic;
+    color: #333399;
+}
+a{
+    color:black;
+}
+
+p {
+    text-align: justify;
+    line-height: 150%;
+}
+#rrow {
+    vertical-align: top;
+}
+#title {
+    background-color: #336699;
+    color:white;
+    text-align: center;
+}
+#kod {
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 150%;
+}
+.half_div {
+    width:50%;
+    float: left;
+    padding: 2%;
+}

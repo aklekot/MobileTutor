@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MobileTutor.pl</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="banner">
+        <h1>MobileTutor.pl</h1>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Strona główna</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown">
+                            Kwalifikacja INF.03
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">HTML+CSS</a></li>
+                            <li><a class="dropdown-item" href="#">JavaScript</a></li>
+                            <li><a class="dropdown-item" href="#">PHP</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdown1" role="button"
+                            data-toggle="dropdown">Kwalifikacja INF.04</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                            <li><a class="dropdown-item" href="#">C#</a></li>
+                            <li><a class="dropdown-item" href="#">Angular</a></li>
+                            <li><a class="dropdown-item" href="#">Aplikacje mobline</a></li>
+                        </ul>
+
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#">O mnie</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="main-content">
+        <p>Język C# został opracowany w firmie Microsoft.Język ten pochodzi z rodziny C i C++, choć
+            zawiera również wiele elementów znanych programistom np. Javy.
+            Głównym twórcą C# jest Anders Hejlsberg. C# jest językiem obiektowym i jest ściśle powiązany ze środowiskiem
+            uruchomieniowym .NET, co oczywiście nie jest równoznaczne z tym, że nie powstają jego implementacje
+            przeznaczone dla innych platform. Oznacza to, że dobrze sprawdza się w najnowszym środowisku Windows oraz w
+            sposób bezpośredni może korzystać z klas .NET, co pozwala na szybkie i efektywne pisanie aplikacji.</p>
+        <h5>Struktura prostego programu w języku C#:</h5>
+        <img src="img/apka1_start.png" class="img-responsive" id="image">
+        <h5>Typy danych w C#</h5>
+        <ol>
+            <li>Typy proste
+                <ul>
+                    <li>Typy całkowite</li>
+                    <li>Typy zmiennoprzecinkowe</li>
+                    <li>Typ char</li>
+                    <li>Typ bool</li>
+                </ul>
+            </li>
+            <li>Typy wyliczeniowe</li>
+            <li>Typy strukturalne – ciągi znaków</li>
+            <li>Typy referencyjne</li>
+        </ol>
+        <div class="row">
+        <div class="half_div">
+
+            <table class="table table-light table-striped table-sm">
+                <thead class="table-primary">
+                    <tr>
+                        <th colspan="3"> Typy całkowite</th>
+                    </tr>
+                    <tr>
+                        <th>Nazwa</th>
+                        <th>Zakres</th>
+                        <th>Rozmiar</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>sbyte</td>
+                        <td>od -128 do 127</td>
+                        <td>8 bitów</td>
+                    </tr>
+                    <tr>
+                        <td>byte</td>
+                        <td>od 0 do 255</td>
+                        <td>8 bitów</td>
+                    </tr>
+                    <tr>
+                        <td>short</td>
+                        <td>od -2<sup>15</sup> do 2<sup>15</sup>-1</td>
+                        <td>16 bitów</td>
+                    </tr>
+                    <tr>
+                        <td>ushort</td>
+                        <td>od 0 do 2<sup>16</sup>-1</td>
+                        <td>16 bitów</td>
+                    </tr>
+                    <tr>
+                        <td>int</td>
+                        <td>od -2<sup>31</sup> do 2<sup>32</sup>-1</td>
+                        <td>32 bity</td>
+                    </tr>
+                    <tr>
+                        <td>uint</td>
+                        <td>od 0 do 2<sup>31</sup>-1</td>
+                        <td>32 bity</td>
+                    </tr>
+                    <tr>
+                        <td>long</td>
+                        <td>od -2<sup>63</sup> do 2<sup>63</sup>-1</td>
+                        <td>64 bity</td>
+                    </tr>
+                    <tr>
+                        <td>ulong</td>
+                        <td>od 0 do 2<sup>64</sup>-1</td>
+                        <td>64 bity</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="half_div">
+            <table class="table table-light table-striped table-sm">
+                <thead class="table-primary">
+                    <tr>
+                        <th colspan="3"> Typy zmiennoprzecinkowe</th>
+                    </tr>
+                    <tr>
+                        <th>Nazwa</th>
+                        <th>Zakres</th>
+                        <th>Precyzja</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>float</td>
+                        <td>od &plusmn;1.5 * 10<sup>-45</sup> do &plusmn;3.4 * 10<sup>38</sup></td>
+                        <td>7 miejsc po przecinku</td>
+                    </tr>
+                    <tr>
+                        <td>double</td>
+                        <td>od &plusmn;5.0 * 10<sup>-324</sup> do &plusmn;1.7 * 10<sup>308</sup></td>
+                        <td>15 lub 16 cyfr</td>
+                    </tr>
+                    <tr>
+                        <td>decimal</td>
+                        <td>od &plusmn;1.0 * 10<sup>-28</sup> do &plusmn;7.9 * 10<sup>28</sup></td>
+                        <td>28 lub 29 cyfr</td>
+                    </tr>
+
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+      <div class="main-content"> Typ wyliczeniowy jest określany słowem enum i pozwala na tworzenie wyliczeń, czyli określonego zbioru wartości,
+        które będą przyjmowane przez dane tego typu.
+        enum nazwa_wyliczenia {element1, element2, …, elementN};
+        Przykład: enum Kolory {czerwony, zielony, niebieski};
+        
+        </div>
+
+    </div>
+
+    <!-- jQuery, Popper.js, Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.11.3/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
